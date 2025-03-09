@@ -42,6 +42,7 @@ const projectData: ProjectItem[] = [
       "Tailwind",
       "XCode",
       "Python",
+      "AWS",
       "Web scraping",
     ],
     link: "https://aviate.to",
@@ -64,7 +65,7 @@ const experienceData: ExperienceItem[] = [
     period: "2018 - Present",
     title: "Founder & Lead Developer",
     description:
-      "Founded and developed a Minecraft Server Network from the ground up. Managed a small team of developers and staff members.",
+      "Founded and developed a Minecraft Network from the ground up. Managed a small team of developers and staff members.",
     achievements: [
       "Developed custom plugins and mods for the Minecraft server in Java",
       "Managed a Dedicated Server with multiple game servers and services",
@@ -259,7 +260,10 @@ export default function Home() {
           </div>
 
           <div className="pt-4 mt-4 border-t border-gray-200">
-            <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition-colors flex items-center justify-center">
+            <button
+              onClick={() => window.print()}
+
+            className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition-colors flex items-center justify-center">
               <svg
                 className="w-5 h-5 mr-2"
                 fill="none"
