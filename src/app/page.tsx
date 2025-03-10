@@ -85,7 +85,7 @@ const experienceData: ExperienceItem[] = [
     ],
   },
   {
-    company: "Simorep & Cie.",
+    company: "Simorep & Cie., A Michelin Company",
     period: "2022",
     title: "Intern",
     description:
