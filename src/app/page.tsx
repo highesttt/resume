@@ -292,9 +292,9 @@ export default function Home() {
           </h2>
           <p className="text-gray-700 leading-relaxed">
             Frenchman looking to make a difference in the world through
-            technology and live in the US. I'm personally more of a backend
-            developer, and work with technologies like Go, Java, C++ and Python,
-            however, I've done my fair share of frontend work with NextJS (web)
+            technology and live in the US. I'm an expert backend
+            developer, and work with technologies like Go, Java, C++ and Python.
+            However, I've done my fair share of frontend work with NextJS (web)
             and React Native (mobile). I'm currently working on multiple
             projects, including IPTX and Aviate which you can find below.
           </p>
@@ -333,7 +333,7 @@ export default function Home() {
         {/* Projects Section */}
         <section className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-sm">
           <h2 className="text-2xl font-bold text-gray-800 mb-6 pb-2 border-b border-gray-200">
-            Projects
+            Entrepreneurial Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {projectData.map((project, index) => (
