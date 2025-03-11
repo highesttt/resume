@@ -44,6 +44,8 @@ const projectData: ProjectItem[] = [
       "Python",
       "AWS",
       "Web scraping",
+      "Prometheus",
+      "Grafana"
     ],
     link: "https://aviate.to",
   },
@@ -149,7 +151,7 @@ export default function Home() {
             </h2>
             <div className="flex flex-wrap gap-2 mt-2">
               <img
-                src="https://go-skill-icons.vercel.app/api/icons?i=typescript,docker,java,go,git,dotnet,javascript,python,maven,c,cpp,cs,gradle,next,nest,vue,reactnative,aws,githubactions,github,mongodb,postgresql,tailwind,rust,androidstudio,bun,react,nuxt&perline=7"
+                src="https://go-skill-icons.vercel.app/api/icons?i=typescript,docker,java,go,git,dotnet,javascript,python,maven,c,cpp,cs,gradle,next,nest,vue,reactnative,aws,githubactions,github,mongodb,postgresql,tailwind,rust,androidstudio,prometheus,react,nuxt&perline=7"
                 alt="Skills"
               />
             </div>
