@@ -75,6 +75,18 @@ const experienceData: ExperienceItem[] = [
     ],
   },
   {
+  	company: "Epitech Bordeaux",
+  	period: "2023 - 2024",
+  	title: "President of the Coding Club Organization",
+  	description:
+  	  "Managed and hired a team of volounteers to help setup events in order to help middle and high schoolers code,",
+  	achievements: [
+  		"Managed a team of cobras (freshmen - junior college students)",
+  		"Created subjects to give to the guests to help them learn",
+  		"Organized events for the Coding Club (inside and outside Epitech Bordeaux)",
+  	]
+  },
+  {
     company: "Devolab",
     period: "2024",
     title: "Software Engineer (Intern)",
