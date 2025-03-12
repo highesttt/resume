@@ -79,7 +79,7 @@ const experienceData: ExperienceItem[] = [
   	period: "2023 - 2024",
   	title: "President of the Coding Club Organization",
   	description:
-  	  "Managed and hired a team of volounteers to help setup events in order to help middle and high schoolers code,",
+  	  "Managed and hired a team of volounteers to setup events in order to help middle and high schoolers learn how to code.",
   	achievements: [
   		"Managed a team of cobras (freshmen - junior college students)",
   		"Created subjects to give to the guests to help them learn",
@@ -114,7 +114,7 @@ const experienceData: ExperienceItem[] = [
 
 const educationData: EducationItem[] = [
   {
-    institution: "Southern Illinois University Edwardsville",
+    institution: "Southern Illinois University of Edwardsville",
     period: "2024 - 2026 (Expected)",
     degree: "Master's in Computer Science",
     description:
@@ -150,7 +150,7 @@ export default function Home() {
               quality={100}
             />
           </div>
-          <h1 className="text-3xl font-bold text-gray-800">Highest</h1>
+          <h1 className="text-3xl font-bold text-gray-800">Killian Lelong</h1>
           <p className="text-blue-600 font-medium mt-1 mb-6">
             Software Developer
           </p>
@@ -264,10 +264,10 @@ export default function Home() {
                   <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                 </svg>
                 <a
-                  href="mailto:klelong@siue.edu"
+                  href="mailto:highest@sk.network"
                   className="hover:text-blue-600"
                 >
-                  klelong@siue.edu
+                  highest@sk.network
                 </a>
               </li>
             </ul>
@@ -305,10 +305,10 @@ export default function Home() {
             About Me
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Frenchman looking to make a difference in the world through
-            technology and live in the US. I'm an expert backend
+            Frenchman living in the US looking to make a difference in the world through
+            technology. I'm an expert backend
             developer, and work with technologies like Go, Java, C++ and Python.
-            However, I've done my fair share of frontend work with NextJS (web)
+            I've also completed my fair share of frontend work with NextJS (web)
             and React Native (mobile). I'm currently working on multiple
             projects, including IPTX and Aviate which you can find below.
           </p>
@@ -329,25 +329,10 @@ export default function Home() {
           ))}
         </section>
 
-        {/* Education Section */}
+        {/* Projects Section */}
         <section className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-sm mb-8">
           <h2 className="text-2xl font-bold text-gray-800 mb-6 pb-2 border-b border-gray-200">
-            Education
-          </h2>
-          {educationData.map((education, index) => (
-            <EducationItemRenderer
-              key={index}
-              item={education}
-              index={index}
-              show={show}
-            />
-          ))}
-        </section>
-
-        {/* Projects Section */}
-        <section className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-sm">
-          <h2 className="text-2xl font-bold text-gray-800 mb-6 pb-2 border-b border-gray-200">
-            Entrepreneurial Projects
+            Current Entrepreneurial Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {projectData.map((project, index) => (
@@ -359,6 +344,21 @@ export default function Home() {
               />
             ))}
           </div>
+        </section>
+
+        {/* Education Section */}
+        <section className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-sm">
+          <h2 className="text-2xl font-bold text-gray-800 mb-6 pb-2 border-b border-gray-200">
+            Education
+          </h2>
+          {educationData.map((education, index) => (
+            <EducationItemRenderer
+              key={index}
+              item={education}
+              index={index}
+              show={show}
+            />
+          ))}
         </section>
       </main>
     </div>
