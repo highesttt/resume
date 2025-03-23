@@ -14,7 +14,7 @@ const projectData: ProjectItem[] = [
   {
     name: "IPTX",
     description:
-      "An Android application that allows you to use your Xtream Codes IPTV subscription on your phone.",
+      "An Android application that allows you to use your Xtream Codes IPTV subscription on Android devices.",
     technologies: [
       "React Native",
       "PostgreSQL",
@@ -99,11 +99,11 @@ const experienceData: ExperienceItem[] = [
     ],
   },
   {
-    company: "Simorep & Cie., A Michelin Company",
+    company: "Simorep & Cie., a Michelin Company",
     period: "2022",
     title: "Intern",
     description:
-      "Assisted in the development of quality indicators",
+      "Assisted in the development of quality indicators for Michelin synthetic rubber production.",
     achievements: [
       "Developed an application for their Qualibus",
       "Digitalized the Quality Awareness Training for their employees",
@@ -159,7 +159,7 @@ export default function Home() {
         <div className="space-y-6">
           <div>
             <h2 className="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-2 mb-3">
-              Technical Skills
+              Technical Skills & Tools used
             </h2>
             <div className="flex flex-wrap gap-2 mt-2">
               <img
