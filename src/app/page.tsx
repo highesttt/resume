@@ -49,6 +49,17 @@ const projectData: ProjectItem[] = [
     ],
     link: "https://aviate.to",
   },
+  {
+    name: "WhichKey",
+    description:
+      "A global keyboard shortcut manager that allows you to create custom keyboard shortcuts Vim-style.",
+    technologies: [
+      "Electron",
+      "Bun",
+      "Typescript"
+    ],
+    link: "https://github.com/WhichKey/WhichKey",
+  },
 ];
 
 const softSkillsData: SoftSkillItem[] = [
